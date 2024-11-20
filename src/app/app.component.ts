@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myapp';
+  public url:string="prathap"
+  imageUrl: string = 'https://example.com/image.jpg';
+  isDisable:boolean=false
+  styles={'background-color':'red',color:'black'}
 }
