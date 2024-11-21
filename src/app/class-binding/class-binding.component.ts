@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './class-binding.component.css'
 })
 export class ClassBindingComponent {
-  isActive: boolean = true;
-  hasError: boolean = false;
+  isActive: boolean = false;
+  hasError: boolean = true;
 }
